@@ -51,10 +51,17 @@ ul {
   padding: 0 15px;
 }
 
-.customers {
+.customers-list {
   display: flex;
   list-style: none;
   gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers-list-svg {
+  width: 168px;
+  height: 88px;
 }
 
 .doing {

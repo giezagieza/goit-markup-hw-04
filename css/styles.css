@@ -1,6 +1,6 @@
 :root {
   --color-primary-brand: #4d5a45;
-  --color-pressed-state: #4d5ae5;
+  --color-pressed-state: #404bbf;
   --color-dark: #2e2f42;
   --color-success: #31d0aa;
   --color-text: #434455;
@@ -49,6 +49,16 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.customers-icon {
+  border: 1px solid;
+  border-radius: 4px;
+  color: var(--color-subtle-text);
+}
+
+.customers-icon:hover {
+  color: var(--color-pressed-state);
 }
 
 .customers-list {
@@ -158,6 +168,15 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.introduction-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark);
+  margin-bottom: 72px;
+}
 img {
   display: block;
 }
@@ -169,16 +188,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-modal-overlay);
   padding: 24px 0;
-}
-
-.introduction-header {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-dark);
-  margin-bottom: 72px;
 }
 
 .link {

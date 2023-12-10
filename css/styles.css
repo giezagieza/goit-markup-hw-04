@@ -1,5 +1,5 @@
 :root {
-  --color-primary-brand: #4d5a45;
+  --color-primary-brand: #4d5ae5;
   --color-pressed-state: #404bbf;
   --color-dark: #2e2f42;
   --color-success: #31d0aa;
@@ -53,7 +53,6 @@ ul {
 
 .customers-list {
   display: flex;
-  list-style: none;
   gap: 24px;
   align-items: center;
   justify-content: center;
@@ -180,6 +179,8 @@ ul {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .introduction-header {
@@ -375,6 +376,38 @@ img {
   margin: auto;
 }
 
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-media-list-listing {
+  width: 40px;
+  height: 40px;
+}
+.socia-media-list-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary-brand);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socia-media-list-link:hover {
+  background-color: #404bbf;
+}
+
+.socia-media-list-link:focus {
+  background-color: #404bbf;
+}
+
+.social.media-icon {
+  fill: var(--color-light);
+}
+
 .values {
   padding: 120px 0;
 }
@@ -400,11 +433,6 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
-}
-
-.values-icon-svg {
-  width: 64px;
-  height: 64px;
 }
 
 .values-list {

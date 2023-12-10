@@ -132,6 +132,9 @@ ul {
 }
 
 .title {
+  background-image: url("/images/bgpeopleoffice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--color-dark);
 }
 

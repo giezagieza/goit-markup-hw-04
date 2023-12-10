@@ -51,6 +51,12 @@ ul {
   padding: 0 15px;
 }
 
+.customers {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
 .doing {
   padding-bottom: 120px;
 }
@@ -354,6 +360,21 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.values-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.values-icon-svg {
+  width: 64px;
+  height: 64px;
 }
 
 .values-list {

@@ -52,12 +52,9 @@ ul {
 }
 
 .customers-icon {
-  border: 1px solid;
-  border-radius: 4px;
-  color: var(--color-subtle-text);
 }
 
-.customers-icon:hover {
+.customers-list-link:hover {
   color: var(--color-pressed-state);
 }
 
@@ -69,11 +66,32 @@ ul {
   justify-content: center;
 }
 
-.customers-list-svg {
-  width: 168px;
+.customers-list-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-subtle-text);
+}
+.customers-list-link:hover {
+  border-color: var(--color-pressed-state);
+}
+
+.customers-list-link:focus {
+  border-color: var(--color-pressed-state);
+}
+
+.customers-list-listing {
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
+.customers-list-svg {
+  fill: currentColor;
+}
 .doing {
   padding-bottom: 120px;
 }

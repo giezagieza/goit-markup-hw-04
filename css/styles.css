@@ -206,6 +206,18 @@ margin-bottom: 16px;
   justify-content: center;
 }
 
+.footer-social-media-list-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-social-media-list-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-svg {
+  fill: #f4f4fd;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px;

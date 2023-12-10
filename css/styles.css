@@ -4,7 +4,7 @@
   --color-dark: #2e2f42;
   --color-success: #31d0aa;
   --color-text: #434455;
-  --color-subtle-text: ##8e8f99;
+  --color-subtle-text: #8e8f99;
   --color-accent: #e7e9fc;
   --color-light: #f4f4fd;
   --color-modal-overlay: #2e2f42;
@@ -51,13 +51,6 @@ ul {
   padding: 0 15px;
 }
 
-.customers-icon {
-}
-
-.customers-list-link:hover {
-  color: var(--color-pressed-state);
-}
-
 .customers-list {
   display: flex;
   list-style: none;
@@ -77,10 +70,12 @@ ul {
   color: var(--color-subtle-text);
 }
 .customers-list-link:hover {
+  color: var(--color-pressed-state);
   border-color: var(--color-pressed-state);
 }
 
 .customers-list-link:focus {
+  background-color: var(--color-pressed-state);
   border-color: var(--color-pressed-state);
 }
 

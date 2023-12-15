@@ -89,8 +89,7 @@ margin-bottom: 69px;
 
 .customers-list-svg {
   fill: currentColor;
-  width: 168px;
-  height: 88px;;
+  
 }
 
 .doing {
@@ -121,7 +120,7 @@ margin-bottom: 69px;
   letter-spacing: 0.02em;
   color: var(--color-text);
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .filters-button {

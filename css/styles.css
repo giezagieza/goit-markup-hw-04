@@ -344,7 +344,7 @@ img {
 }
 
 .portfolio-list-link {
-  display: block;
+  display: inline-block;
 }
 
 .portfolio-list-link:hover {
@@ -411,7 +411,7 @@ img {
 }
 
 .team-list {
-  display: flex;
+  display: inline-flex;
   gap: 24px;
 }
 
